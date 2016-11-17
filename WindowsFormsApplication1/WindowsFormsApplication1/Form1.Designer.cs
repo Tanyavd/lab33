@@ -31,6 +31,7 @@
             this.q = new System.Windows.Forms.Button();
             this.w = new System.Windows.Forms.Button();
             this.e = new System.Windows.Forms.Button();
+            this.y = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // q
@@ -60,11 +61,21 @@
             this.e.Text = "e";
             this.e.UseVisualStyleBackColor = true;
             // 
+            // y
+            // 
+            this.y.Location = new System.Drawing.Point(46, 140);
+            this.y.Name = "y";
+            this.y.Size = new System.Drawing.Size(75, 23);
+            this.y.TabIndex = 3;
+            this.y.Text = "y";
+            this.y.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(697, 262);
+            this.Controls.Add(this.y);
             this.Controls.Add(this.e);
             this.Controls.Add(this.w);
             this.Controls.Add(this.q);
@@ -79,6 +90,7 @@
         private System.Windows.Forms.Button q;
         private System.Windows.Forms.Button w;
         private System.Windows.Forms.Button e;
+        private System.Windows.Forms.Button y;
     }
 }
 
